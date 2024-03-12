@@ -352,6 +352,9 @@ nav {
   .img {
     height: 30vh;
   }
+  .header {
+    width: 90dvh;
+  }
   /*--- Menu ---*/
   .menu {
     flex-direction: column;
