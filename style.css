@@ -1,6 +1,6 @@
 /*===== VARIABLES CSS =====*/
 :root {
-  --header-height: 5vh;
+  --header-height: 5svh;
 
   /*========== Colors ==========*/
 
@@ -78,7 +78,7 @@ b {
 }
 
 .section {
-  height: 100vh;
+  height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,8 +88,8 @@ b {
   display: grid;
   align-items: center;
   justify-items: center;
-  width: 60vw;
-  height: 45vh;
+  width: 60svw;
+  height: 45svh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 20px;
@@ -161,7 +161,7 @@ b {
 .header {
   position: sticky;
   top: 0;
-  width: 100vh;
+  width: 100svh;
   box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
   background-color: var(--color-header);
   z-index: 9;
