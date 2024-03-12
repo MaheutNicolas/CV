@@ -11,7 +11,13 @@ async function initLanguage(names) {
   let result;
   for (let i = 0; i < names.length; i++) {
     const reponse = await fetch(
-      `https://maheutnicolas.github.io/CV/language/files/${names[i]}.json`
+      `https://maheutnicolas.github.io/CV/language/files/${names[i]}.json`,, {
+  method: "GET",
+  credentials: "include",
+  headers: {
+    "Content-Type": "application/json",
+  },
+}
     );
     result = await reponse.json();
     languages.push(result);
