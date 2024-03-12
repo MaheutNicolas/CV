@@ -13,9 +13,9 @@ async function initLanguage(names) {
     const reponse = await fetch(
       `https://maheutnicolas.github.io/CV/language/files/${names[i]}.json`,, {
   method: "GET",
-  credentials: "include",
   headers: {
     "Content-Type": "application/json",
+    Access-Control-Allow-Origin: *
   },
 }
     );
