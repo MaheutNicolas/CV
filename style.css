@@ -78,7 +78,7 @@ b {
 }
 
 .section {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +161,7 @@ b {
 .header {
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 100vh;
   box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
   background-color: var(--color-header);
   z-index: 9;
