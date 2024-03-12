@@ -161,7 +161,7 @@ b {
 .header {
   position: sticky;
   top: 0;
-  width: 100svh;
+  width: 100dvh;
   box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
   background-color: var(--color-header);
   z-index: 9;
