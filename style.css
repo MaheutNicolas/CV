@@ -350,7 +350,7 @@ nav {
   }
   .section {
     width: 100%;
-    height: 100lvh;
+    height: 110lvh;
   }
   .data {
     width: 130%;
@@ -358,7 +358,7 @@ nav {
   .grid {
     gap: 0px;
     grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    grid-template-rows: 110%;
   }
   .content,
   .img {
