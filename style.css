@@ -345,7 +345,7 @@ nav {
 @media only screen and (max-width: 950px) {
   /*--- CORE ---*/
   .section {
-  height: 100svh;
+  height: 90svh;
   }
   .grid {
     grid-template-columns: 1fr;
